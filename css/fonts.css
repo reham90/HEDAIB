@@ -1,0 +1,25 @@
+
+
+
+
+@font-face {
+    font-family: "riyad-bank-Bold";
+    src: url("../webfonts/RB-font/riyad-bank-Bold.woff") format("woff"), url("../webfonts/RB-font/riyad-bank-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "riyad-bank-Regular";
+    src: url("../webfonts/RB-font/riyad-bank-Regular.woff") format("woff"),  url("../webfonts/RB-font/riyad-bank-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: "4_F3";
+    src: url("../webfonts/RB-font/4_F3.woff") format("woff"),  url("../webfonts/RB-font/4_F3.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
