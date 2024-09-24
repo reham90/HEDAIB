@@ -22,7 +22,7 @@ $(".search-btn").click(function(e) {
       $('.menu-bars .bar').toggleClass('hide-icon');
       $('.menu-bars .times').toggleClass('hide-icon');
       $(".navgition").toggleClass("reset-left");
-      
+      $(".language-dropdown").toggleClass("visible");
       $("body").toggleClass("overflow");
       $("html").toggleClass("overflow");
 

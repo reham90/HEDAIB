@@ -891,7 +891,7 @@ header {
 	
 
 	.show-icons {
-		position: absolute;
+		
 		font-size: 24px;
 		background-color: transparent;
 		border: none;
@@ -927,6 +927,9 @@ header {
 	.show-icons .menu-bars .times {
 		color: var(--main-color);
 		text-decoration: none;
+		inset-inline-start: 297px;
+        top: -9px;
+		position: absolute;
 	}
 
 	.navigation-bar {
@@ -2410,6 +2413,18 @@ ol.breadcrumb li:not(.active):after {
 @media (max-width: 991px) {
 	.mega-menu{
 		padding-inline-start: 0;
+	}
+	.language-dropdown{
+		position: absolute;
+    inset-inline-start: 0;
+    visibility: hidden;
+    opacity: 0;
+	
+	}
+	.visible{
+		opacity: 1;
+		visibility: visible;
+		z-index: 9;
 	}
 	.newsletter-input{
 		width: 100%;
