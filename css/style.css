@@ -848,6 +848,7 @@ header {
 
 	.img-logo {
 		width: 66px;
+		margin-inline-start: 33px;
 	}
 
 	.nav-header {
@@ -898,9 +899,10 @@ header {
 		display: flex;
 		color: var(--main-color);
 		transition: all 0.3s ease-in-out;
-		
+		inset-inline-start: 0;
+        position: absolute;
 		top: 18px;
-        inset-inline-start: 142px;
+        
 	}
 
 	.show-icons .menu-bars {
@@ -928,7 +930,7 @@ header {
 		color: var(--main-color);
 		text-decoration: none;
 		inset-inline-start: 297px;
-        top: -9px;
+        
 		position: absolute;
 	}
 
